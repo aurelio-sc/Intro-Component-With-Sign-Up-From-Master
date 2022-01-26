@@ -86,6 +86,11 @@ body{
 
 .error {
     margin-bottom: 1.5rem;
+    color: var(--primary1);
+    text-align: right;
+    padding-right: 1.5rem;
+    font-size: 0.75rem;
+
 }
 
 .submitButton {
