@@ -10,8 +10,6 @@ const emailError = document.querySelector(".emailError");
 const pWordError = document.querySelector(".pWordError");
 
 submit.addEventListener("click", function(){
-  
-  console.log("clicou!");
 
   if (!firstName.textContent) {
     fNameError.textContent = "First Name cannot be empty"; //!String checa se a string é vazia. (True se for vazia)
