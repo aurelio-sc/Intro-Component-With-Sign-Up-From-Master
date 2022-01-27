@@ -32,7 +32,7 @@ submit.addEventListener("click", function(){
   if (email.value == "") {
     emailError.textContent = "Email cannot be empty";
     email.style.backgroundImage = "url('./images/icon-error.svg')";
-    email.value = "email@exemple.com"
+    email.value = "email@example.com"
     email.style.color = "hsl(0, 100%, 74%)";
     email.style.fontStyle = "italic";
   }else{
