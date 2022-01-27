@@ -84,6 +84,15 @@ body{
     font-weight: inherit;
 }
 
+.fName, .lName, .email, .pWord {    
+    background-position: right;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-origin: content-box;
+    background-repeat: no-repeat;    
+}
+
+
 .error {
     margin-bottom: 1.5rem;
     color: var(--primary1);
